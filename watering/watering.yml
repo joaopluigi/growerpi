@@ -1,0 +1,6 @@
+version: 1
+gpioMode: BOARD
+watering:
+  - startHour: 22 # UTC
+    pin: 8 # According to GPIO mode
+    timeOn: 1 # mins
